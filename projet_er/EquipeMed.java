@@ -24,7 +24,13 @@ public class EquipeMed implements NotRoom{
             observer.update();
         }
     }
-        
     
+    public void setName(String ename){
+        this.name = ename;
+    }
+    
+    public String getName(){
+        return this.name;
+    } 
     
 }
