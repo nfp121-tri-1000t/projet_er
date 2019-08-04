@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Medecine
+comment1.params=
+comment1.target=void\ notificationsGrabber()
+comment2.params=newObserver
+comment2.target=void\ register(Observer)
+comment3.params=deleteObserver
+comment3.target=void\ unregister(Observer)
+comment4.params=
+comment4.target=void\ notifyObserver()
+numComments=5

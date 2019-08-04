@@ -7,27 +7,24 @@
  */
 public class Patient
 {
-    // instance variables - replace the example below with your own
-    private int x;
 
-    /**
-     * Constructor for objects of class Patient
-     */
-    public Patient()
+    private String patientName;
+    private int patientAge;
+    private String  patientGender;
+
+    Patient (String patientName, int patientAge,String patientGender, String disease)
     {
-        // initialise instance variables
-        x = 0;
+        this.patientName= patientName;
+        this.patientGender= patientGender;
+        this.patientAge=patientAge;
+        
+    }   
+
+  
+
+    public String toString()
+    {
+        return (patientName+""+patientAge+""+patientGender);
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
 }
